@@ -21,7 +21,12 @@
   gap: 40px;
   margin-bottom: 50px;
 }
-
+.headerTitle {
+  font-size: 4rem;
+}
+.headerDesc {
+  font-size: 2rem;
+}
 .headerListItem {
   display: flex;
   align-items: center;
@@ -32,6 +37,14 @@
   border: 1px solid white;
   padding: 10px;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+.headerListItem:hover {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .headerDesc {

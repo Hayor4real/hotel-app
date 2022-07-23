@@ -1,0 +1,56 @@
+.checkLogin {
+  height: 50vh;
+  width: 50%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  margin: 7rem auto;
+  background-image: url('https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o=');
+  background-repeat: no-repeat;
+}
+.checkWord {
+  text-align: center;
+}
+.check {
+  margin-top: auto;
+
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+}
+
+.checkContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.checkInput {
+  font-size: 1em;
+  padding: 7px;
+  margin-top: 1em;
+  border-radius: 4px;
+  border: 2px solid black;
+  width: 30rem;
+  height: 2em;
+  cursor: pointer;
+}
+
+.checkButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}

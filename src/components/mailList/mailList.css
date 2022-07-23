@@ -28,3 +28,10 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.foot {
+  display: flex;
+}
+.foot span {
+  font-size: 1em;
+}

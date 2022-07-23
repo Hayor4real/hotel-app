@@ -11,6 +11,10 @@ const MailList = () => {
         <input type='text' placeholder='Your Email' />
         <button>Subscribe</button>
       </div>
+      <div className='foot'>
+        <input type='checkbox' />
+        <span>Send me a link for the Free Booking.com app</span>
+      </div>
     </div>
   );
 };

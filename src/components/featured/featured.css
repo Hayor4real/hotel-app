@@ -27,3 +27,29 @@
   bottom: 20px;
   left: 20px;
 }
+.hol {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hol p {
+  font-size: 1.3em;
+  margin-right: 1.4em;
+}
+.hol1,
+.hol2 {
+  display: flex;
+  margin-right: 3px;
+}
+
+::checkbox {
+  font-size: 1em;
+}
+
+.des h1 {
+  font-weight: bold;
+  text-align: left;
+}
+.des p {
+  font-weight: 200;
+  text-align: left;
+}

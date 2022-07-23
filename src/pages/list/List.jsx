@@ -6,13 +6,15 @@ import { useState } from 'react';
 import { format } from 'date-fns';
 import { DateRange } from 'react-date-range';
 import SearchItem from '../../components/searchItem/SearchItem';
+import SearchItem1 from '../../components/searchItem1/SearchItem1';
+import SearchItem2 from '../../components/searchItem2/SearchItem2';
 
 const List = () => {
   const location = useLocation();
   const [destination, setDestination] = useState(location.state.destination);
   const [date, setDate] = useState(location.state.date);
   const [openDate, setOpenDate] = useState(false);
-  const [options, setOptions] = useState(location.state.options);
+  const [options, set] = useState(location.state.options);
 
   return (
     <div>
@@ -92,10 +94,13 @@ const List = () => {
             <SearchItem />
             <SearchItem />
             <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
+            <SearchItem1 />
+            <SearchItem1 />
+            <SearchItem1 />
+            <SearchItem1 />
+            <SearchItem2 />
+            <SearchItem2 />
+            <SearchItem2 />
           </div>
         </div>
       </div>

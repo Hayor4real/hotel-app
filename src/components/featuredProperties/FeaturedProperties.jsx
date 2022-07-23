@@ -11,7 +11,7 @@ const FeaturedProperties = () => {
         />
         <span className='fpName'>Aparthotel Stare Miasto</span>
         <span className='fpCity'>Madrid</span>
-        <span className='fpPrice'>Starting from $120</span>
+        <span className='fpPrice'>Starting from €120</span>
         <div className='fpRating'>
           <button>8.9</button>
           <span>Excellent</span>
@@ -25,7 +25,7 @@ const FeaturedProperties = () => {
         />
         <span className='fpName'>Comfort Suites Airport</span>
         <span className='fpCity'>Austin</span>
-        <span className='fpPrice'>Starting from $140</span>
+        <span className='fpPrice'>Starting from €140</span>
         <div className='fpRating'>
           <button>9.3</button>
           <span>Exceptional</span>
@@ -39,9 +39,9 @@ const FeaturedProperties = () => {
         />
         <span className='fpName'>Four Seasons Hotel</span>
         <span className='fpCity'>Lisbon</span>
-        <span className='fpPrice'>Starting from $99</span>
+        <span className='fpPrice'>Starting from €199</span>
         <div className='fpRating'>
-          <button>8.8</button>
+          <button>7.8</button>
           <span>Excellent</span>
         </div>
       </div>
@@ -53,9 +53,9 @@ const FeaturedProperties = () => {
         />
         <span className='fpName'>Hilton Garden Inn</span>
         <span className='fpCity'>Berlin</span>
-        <span className='fpPrice'>Starting from $105</span>
+        <span className='fpPrice'>Starting from €105</span>
         <div className='fpRating'>
-          <button>8.9</button>
+          <button>10.1</button>
           <span>Excellent</span>
         </div>
       </div>

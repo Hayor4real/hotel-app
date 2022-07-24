@@ -36,7 +36,7 @@ const CheckOut = () => {
       <Navbar />
       <div className='check'>
         <div className='checkLogin'>
-          <h1 className='checkWord'>Registration</h1>
+          <h1 className='checkWord'>Check Out</h1>
           <h1 className='checkWord'>Thank You Choosing Us!</h1>
           <div className='checkContainer'>
             <input

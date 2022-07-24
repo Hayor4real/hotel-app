@@ -6,11 +6,13 @@ const Featured = () => {
       <div className='hol'>
         <div className='hol1'>
           <input type='checkbox' />
-          <p>I am looking for entire holiday accommodation or apartments</p>
+          <span>
+            I am looking for entire holiday accommodation or apartments
+          </span>
         </div>
         <div className='hol2'>
           <input type='checkbox' />
-          <p>I am traveling for business</p>
+          <span>I am traveling for business</span>
         </div>
       </div>
       <div className='des'>

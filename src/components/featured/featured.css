@@ -29,16 +29,19 @@
 }
 .hol {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
-.hol p {
-  font-size: 1.3em;
+/* .hol p {
+  
   margin-right: 1.4em;
-}
+} */
 .hol1,
 .hol2 {
   display: flex;
-  margin-right: 3px;
+  padding: 7px;
+  margin-top: 0;
+  font-size: 1.3em;
+  margin-left: 0;
 }
 
 ::checkbox {
@@ -50,6 +53,6 @@
   text-align: left;
 }
 .des p {
-  font-weight: 200;
+  font-size: 1.5rem;
   text-align: left;
 }
